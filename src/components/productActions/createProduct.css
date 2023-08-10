@@ -1,0 +1,152 @@
+.sell {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px; 
+    border: 1px solid #888888; 
+}
+
+.sellnavigation {
+    background-color: rgb(29, 65, 29);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+}
+
+.sellnavigation > * {
+    margin-left: 5rem;
+}
+
+
+.heading_content {
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+.labels {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+
+.h3_heading {
+    padding: .5rem;
+    font-size: 20px;
+}
+
+.chooseImage {
+    display: flex;
+    flex-direction: row;
+    border:  dashed rgb(29, 65, 29); 
+    justify-content: space-evenly;
+    margin: 1rem 0 3rem 0;
+}
+#title{
+    border: dashed rgb(29, 65, 29);
+    border-radius: 0;
+}
+
+.chooseImage > img {
+    height: 12rem;
+}
+
+.condition_head {
+    margin-top: 1rem;
+}
+
+.conditions {
+    flex: 1;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.conditionOption {
+    border: dashed ; 
+    width: 10rem;
+    text-align: center;
+    margin: 0 5px; 
+    padding: 5px;
+}
+
+.conditionOption:hover {
+    cursor: pointer;
+    background-color: #00693e;
+    color: white;
+}
+
+.conditionOption > p {
+    font-weight: lighter;
+    position: relative;
+}
+
+
+.chooseInput input {
+    margin-top: 5rem;
+    margin-left: 11rem;
+    
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.description {
+    padding: 1rem;
+    border: dashed rgb(29, 65, 29);
+    border-radius: 0;
+}
+#categories{
+    border: dashed rgb(29, 65, 29) ;
+}
+
+#categories, #purpose {
+    margin: 1rem 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+input[type="text"] {
+    border-radius: 10px;
+    border: 1px solid #888888; 
+}
+
+input.createProductButton {
+    width: 20%;
+    height: 2rem;
+    margin-bottom: 5rem;
+    border-radius: 10px; 
+    background-color: #00693e;
+}
+
+input.createProductButton:hover {
+    background-color: #2e250d;
+    color: white;
+    transform: translateY(10%);
+}
+#purpose{
+    border: dashed;
+    width: 50%;
+}
+#price{
+    border: dashed;
+    width: 50%;
+    border-radius: 0;
+}
+
+
+@media (max-width: 768px) {
+    .labels {
+        width: 90%;
+    }
+
+    .conditions {
+        flex-wrap: wrap;
+    }
+}

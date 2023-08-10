@@ -1,0 +1,64 @@
+.account_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #035428ce;
+    overflow-x: auto; 
+    flex-wrap: nowrap; 
+}
+
+.accountLinks {
+    text-decoration: none;
+    color: white;
+    margin-right: 2rem;
+    font-size: 1rem;
+    white-space: nowrap; 
+    flex-shrink: 0;
+}
+
+.rightLinks {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; 
+    flex-shrink: 0; 
+}
+
+.account_navigation::-webkit-scrollbar {
+    height: 8px;
+}
+
+.account_navigation::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.account_navigation::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+@media screen and (max-width: 768px) {
+    .account_navigation {
+        padding: 0.5rem;
+    }
+
+    .rightLinks {
+        margin-left: 1rem;
+    }
+
+    .accountLinks {
+        margin-right: 1rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .account_navigation {
+        padding: 0.3rem;
+    }
+
+    .accountLinks {
+        font-size: 0.8rem;
+        margin-right: 0.5rem;
+    }
+}

@@ -1,0 +1,197 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+}
+.navigationBar {
+    width: 100% !important;
+    
+}
+
+.iconbar {
+    background-color: rgb(29, 65, 29);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 10px 0;
+    min-width: max-content;
+    height: 60px;
+    width: 100%;
+}
+.iconbar > * {
+    flex-shrink: 1;
+}
+
+.navigationBar, .iconbar, .subnavigation {
+    box-sizing: border-box;
+}
+
+
+.searchContainer {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin-right: 2rem;
+}
+
+.searchWrap {
+    display: flex;
+}
+
+.searchBar {
+    flex-grow: 1;
+    margin: 1rem 0 1rem 1rem;
+    border-radius: .3rem 0 0 .3rem;
+}
+
+.searchButton {
+    position: absolute;
+    right: 0;
+    top: 2rem;
+    transform: translateY(-50%);
+    background-color: #447e3a;
+    border-radius: 0 .3rem .3rem 0;
+    border: none;
+}
+
+.iconContainer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1.5rem;
+    margin-top: 1.2rem;
+}
+
+.icon {
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon:hover {
+    transform: translateY(10%);
+    cursor: pointer;
+    transition: 300ms;
+}
+.icon:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.iconbar > .logo {
+    white-space: nowrap;
+    font-size: 1.2rem;
+    padding: 2.2rem 1.5rem 1.5rem 1.5rem;
+}
+
+.linking {
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.linking :hover {
+    color: rgb(199, 203, 207);
+}
+
+.icon p {
+    font-size: .85rem;
+    text-align: center; 
+    margin-left: -4px; 
+}
+
+
+
+.icon img {
+    height: 1.1rem;
+}
+
+.iconbar  input.searchBar {
+    width: 60vh;
+    height: 2rem;
+}
+
+img.account-image {
+    height: 1.5rem;
+    align-self: center;
+    margin-bottom: 0.2rem;
+    margin-top: 1rem;
+}
+
+.notLoggedIn, .loggedIn {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: .4rem;
+    border-radius: .4rem;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 0.85rem;
+    margin: 1rem; 
+}
+
+.notLoggedIn:hover, .loggedIn:hover {
+    transform: translateY(10%);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.notLoggedIn p, .loggedIn p {
+    font-size: .7rem;
+    text-align: center;
+}
+
+.notLoggedIn h3, .loggedIn h3 {
+    margin-top: -.4rem;
+    font-size: .7rem;
+    text-align: center;
+}
+
+.navBeside {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+
+/** Notice dropdown css/ just try**/
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(29, 65, 29);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 12px;
+    text-decoration: none; 
+    display: block;       
+    white-space: nowrap;   
+}
+
+.dropdown-content a:hover {
+    background-color: #08281f;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+

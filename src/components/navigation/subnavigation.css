@@ -1,0 +1,38 @@
+.subnavigation {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center; 
+    background-color: #EFF5EE;
+    width: 100%;
+}
+
+.centerWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.category-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 16px; /* Adjust space between categories as needed */
+}
+
+.sub-link {
+    text-decoration: none;
+    font-size: large;
+    color: green;
+}
+
+.subLink {
+    font-size: .9rem;
+}
+
+.sub-link:hover {
+    transform: translateY(10px);
+}
+
+.subnavigation > * {
+    padding: .4rem;
+}

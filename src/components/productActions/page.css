@@ -1,0 +1,65 @@
+div.with-actions{
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+    /* justify-content: space-around; */
+    margin-left: 4rem;
+}
+
+.actions{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin-left: 1rem;
+    /* margin-left: 5rem; */
+}
+.some-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+    width: 20vw;
+}
+
+button{
+    height: 2rem;
+}
+
+.some-buttons > button{
+    color: white ;
+    width: 40%;
+    background-color: #0e5635;
+    font-size: .9rem;
+    border-radius: .3rem;
+}
+
+.element{
+    display: flex;
+    flex-direction: row;
+}
+
+.keepShoppingHeader{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+hr{
+    margin-top: .5rem;
+}
+
+.noHr{
+    width: 90vw;
+}
+
+.productName{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.actions > button{
+    background-color: #0e5635;
+    width: 80%;
+    color: white;
+    font-size: .9rem;
+    border-radius: .3rem;
+}

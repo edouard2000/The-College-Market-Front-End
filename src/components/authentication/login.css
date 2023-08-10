@@ -1,0 +1,205 @@
+.loginPage, .accountPage{
+    height: 100vh;
+    width: 100vw;
+    background-color: #EFF5EE;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.accountPage{
+    height: 94vh;
+}
+
+.loginCard, .accountCard{
+    height: 90vh;
+    width: 30vw;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.accountCard{
+    width: 60%;
+    height: 60%;
+    margin-bottom: 10rem;
+}
+
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.spanning_element{
+    margin-left: 2.6rem;
+}
+
+.userId{
+    margin-left: 1.5rem;
+}
+
+.inputs > input {
+    width: 70%;
+    padding: .7rem;
+    margin: 1rem;
+}
+.lognavigator {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 5rem; */
+    /* height: 5rem; */
+}
+
+.changeButton{
+    margin-left: 1rem;
+    color: rgb(16, 114, 219);
+    text-decoration: underline;
+}
+
+.partTwo{
+    align-self: center;
+}
+
+.spanning_element_email, .userId, .spanning_element{
+    font-weight: lighter;
+}
+
+.detail{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.spanning_element_email{
+    margin-left: 6rem;
+}
+
+.heading > * > *, .details > *{
+    margin: none;
+    padding: none;
+    text-align: left;
+}
+
+span{
+    color: black;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0 0 .9rem 0;
+    color: black;
+    font-size: .9rem;
+}
+
+.head_content{
+    font-weight: bolder;
+    color: green;
+    font-size: .95rem;
+    margin-top: .6rem;
+}
+
+
+hr{
+    width: 70%;
+}
+
+
+input[type = 'button']{
+    background-color: transparent;
+    border: 1px solid black;
+}
+input[type = 'button']:hover{
+    cursor: pointer;
+    background-color: #EFF5EE;
+}
+.buttonLogin  {
+    height: 2rem;
+    margin: 2rem;
+}
+
+.horizontal{
+    width: 100%;
+}
+
+.loginLink{
+    text-decoration: none;
+    color: rgb(81, 81, 195);
+}
+
+.third-party-login{
+    /* margin-top: 2rem;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-party-login > input{
+    height: 2.5rem;
+    width: 70%;
+}
+.links > *{
+    color: black;
+}
+
+
+.links{
+    /* margin-top: 5rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h2{
+    margin: none;
+    padding: none;
+}
+
+.profileImage{
+    border-radius: 50%;
+    height: 10rem;
+    margin-left: 4rem;
+}
+
+.horizontaldetail{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.account_nativation{
+    background-color: white;
+    position: block;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.account_nativation .rightLinks{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60%;
+}
+
+.accountLinks{
+    text-decoration: none;
+    padding: 0 0 0 2rem;
+}
+
+h4{
+    color: black;
+}

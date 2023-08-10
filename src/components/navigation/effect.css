@@ -1,0 +1,29 @@
+.trade-effect {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trade-effect h4 {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color1 {
+    color: #3498db;
+}
+
+.color2 {
+    color: #e74c3c;
+}
+
+.color3 {
+    color: #2ecc71;
+}
+
+.trade-effect span {
+    color: #00693e;
+}
